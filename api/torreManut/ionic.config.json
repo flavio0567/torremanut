@@ -1,0 +1,16 @@
+{
+  "name": "torreManut",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular",
+  "/posts": {
+    "target": "https://localhost:5000",
+    "secure": true,
+    "pathRewrite": {
+    "^/posts": ""
+  },
+    "changeOrigin": true
+  }
+    
+}
